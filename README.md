@@ -58,8 +58,9 @@ A collection of resources to study Solana smart contract security, auditing, and
 ## Tools 🔧
 
 - [Neodyme Solana PoC Framework](https://github.com/neodyme-labs/solana-poc-framework) (penetration testing)
-- [Kudelski Semgrep](https://twitter.com/cryptographadam/status/1425163382982811650?s=20&t=5rNeZ11MMw0N1e-_SmU5Tw) (static analysis)
 - [Saber Vipers](https://github.com/saber-hq/vipers) (checks and validations)
+- [Kudelski Semgrep](https://twitter.com/cryptographadam/status/1425163382982811650?s=20&t=5rNeZ11MMw0N1e-_SmU5Tw) (static analysis)
+- [Soteria](https://www.soteria.dev/post/soteria-a-vulnerability-scanner-for-solana-smart-contracts) (vulnerability scanner)
 
 
 

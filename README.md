@@ -48,6 +48,7 @@ A collection of resources to study Solana smart contract security, auditing, and
   - Shows how to build a proof of concept with Neodyme’s Poc Framework. Also highlights how previously audited code (Stake Pool audits linked in audits section below) can contain vulnerabilities
 - [SPL Token Program Approve Instruction](https://2501babe.github.io/tools/revoken.html) (Hana)
 - [The $200m Bluff: Cheating Oracles on Solana](https://osec.io/blog/reports/2022-02-16-lp-token-oracle-manipulation/) (OtterSec)
+- [Wormhole Hack Summary Thread](https://twitter.com/samczsun/status/1489044939732406275) (samczsun)
 - [Wormhole Hack TLDR](https://halborn.com/explained-the-wormhole-hack-february-2022/) (Halborn)
 - [Wormhole Hack Quick Analysis](https://research.kudelskisecurity.com/2022/02/03/quick-analysis-of-the-wormhole-attack/) (Kudelski)
 - [Wormhole Post-Mortem Analysis](https://extropy-io.medium.com/solanas-wormhole-hack-post-mortem-analysis-3b68b9e88e13) (Entropy)

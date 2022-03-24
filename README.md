@@ -56,7 +56,8 @@ A collection of resources to study Solana smart contract security, auditing, and
 
 
 ## Tools 🔧
-
+- [cargo-audit](https://docs.rs/cargo-audit/latest/cargo_audit) (checks Cargo.lock files for vulnerable crates)
+- [cargo-geiger](https://crates.io/crates/cargo-geiger) (checks usage of unsafe Rust code)
 - [Neodyme Solana PoC Framework](https://github.com/neodyme-labs/solana-poc-framework) (penetration testing)
 - [Saber Vipers](https://github.com/saber-hq/vipers) (checks and validations)
 - [Kudelski Semgrep](https://twitter.com/cryptographadam/status/1425163382982811650?s=20&t=5rNeZ11MMw0N1e-_SmU5Tw) (static analysis)

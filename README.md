@@ -33,6 +33,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 ## Exploits 🪦
 
 - [CASH Hack summary thread](https://twitter.com/samczsun/status/1506578902331768832) (samczsun)
+- [CashioApp Attack — What’s the Vulnerability](https://www.soteria.dev/post/cashioapp-attack-whats-the-vulnerability-and-how-soteria-detects-it) (Soteria)
 - [Cope Roulette](https://github.com/Arrowana/cope-roulette-pro) (Arrowana)
 - [Detecting Simulation in a Solana Program](https://opcodes.fr/en/publications/2022-01/detecting-transaction-simulation/) (Opcodes)
   - Goes into how transaction simulation works and the purpose of the bank - Soteria also has a great [overview](https://www.soteria.dev/post/solana-internals-part-4-the-bank-a-key-component) of the bank module

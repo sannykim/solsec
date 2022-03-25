@@ -7,23 +7,35 @@ A collection of resources to study Solana smart contract security, auditing, and
 ## Foundations 📚
 
 - [Armani Sealevel Attacks and How to avoid them in Anchor](https://github.com/project-serum/sealevel-attacks)
-  - [Summary Thread](https://twitter.com/pencilflip/status/1483880018858201090) by pencilflip
+  - [Summary Thread](https://twitter.com/pencilflip/status/1483880018858201090) by pencilflip - use Anchor attributes, constraints and types, it will make your life easier!
 - [Armani Tips on Developing Secure Solana Programs](https://twitter.com/armaniferrante/status/1411589629384355840)
+  - Be wary of  `UncheckedAccount` and `AccountInfo` - check them properly!
 - [CMichel How to become a smart contract auditor](https://cmichel.io/how-to-become-a-smart-contract-auditor/) 
   - Targeted at ETH folks but contains general advice
 - [DeFi MOOC samczsun Practical Smart Contract Security](https://www.youtube.com/watch?v=pJKy5HWuFK8)
-  - Great intro to smart contract security that provides an overview of a large surface area of attacks. Mostly ETH-based but also covers a cross-chain BTC/ETH exploit and contains lots of concepts that carry over to Solana
+  - Great intro to smart contract security that provides an overview of a large surface area of attacks. Mostly ETH-based but also covers a cross-chain BTC/ETH exploit, and contains lots of concepts that carry over to Solana
 - [Kudelski Solana Program Security](https://research.kudelskisecurity.com/2021/09/15/solana-program-security-part1/)
+  - A high-level overview of ownership and data validation
 - [Neodyme Common Pitfalls](https://blog.neodyme.io/posts/solana_common_pitfalls)
+  - Check owner, check signer, check account data, be careful of integer over/underflow, verify invoke_signed(), and [use Anchor](https://twitter.com/armaniferrante/status/1438706351295827968?s=20&t=YS6ldLG-nvqLffT4eZtpKg) (unless you have a good reason not to), e.g. account confusions are prevented in Anchor by implicitly assigning each `#[account]` a type with an 8-byte identifier 
 - [Neodyme Solana Security Workshop Exercises and Solutions](https://workshop.neodyme.io/)
+  - Corresponding exercises to the common pitfalls mentioned in the blog post 
 - [Neodyme Thinking Like An Attacker Workshop Recording](https://www.youtube.com/watch?v=vbkhhgeP30I)
+  - A quick rundown of the PoC framework and an explanation of Level 0 of the challenge
 - [OtterSec Solana from an Auditor’s perspective](https://osec.io/blog/tutorials/2022-03-14-solana-security-intro/)
+  - A bottoms-up introduction to Solana's Execution and Programming Model from a security perspective
 - [Soteria Arithmetic Overflow and Underflow](https://www.soteria.dev/post/understanding-arithmetic-overflow-underflows-in-rust-and-solana-smart-contracts)
+  - Don't use `+, - , /, *` operations, check arithmetic operations for overflow and underflow!
 - [Soteria How to Audit Part 1: A Systematic Approach](https://www.soteria.dev/post/how-to-audit-solana-smart-contracts-part-1-a-systematic-approach)
+  - A high-level overview of common attack surfaces and questions to ask as an auditor
 - [Soteria How to Audit Part 2: using automated tools to find vulnerabilities](https://www.soteria.dev/post/how-to-audit-solana-smart-contracts-part-2-automated-scanning)
+  - An outline of tools that can automatically scan your code for vulnerabilities, unsafe Rust, and spelling. More security tools are needed! 
 - [Soteria How to Audit Part 3: Penetration Testing](https://www.soteria.dev/post/how-to-audit-solana-smart-contracts-part-3-penetration-testing)
+  - How to execute a proof of concept for an attack with Neodyme's PoC framework
 - [Soteria How to Audit Part 4: Anchor](https://www.soteria.dev/post/how-to-audit-solana-smart-contracts-part-4-the-anchor-framework)
+  - How Anchor's `#[program] `, `#[derive(Accounts)]` and `#[account]`work under-the-hood
 - [Soteria Owner and Signer Check](https://www.soteria.dev/post/from-ethereum-smart-contracts-to-solana-programs-two-common-security-pitfalls-and-beyond)
+  - Check the owner and check the signer! Use `#[account]` and `Signer<'info>` to [prevent](https://twitter.com/armaniferrante/status/1438706352805797889?s=20&t=YS6ldLG-nvqLffT4eZtpKg) this
 - [Solend Auditing Workshop](https://docs.google.com/presentation/d/1jZ9kVo6hnhBsz3D2sywqpMojqLE5VTZtaXna7OHL1Uk/edit?pli=1#slide=id.ge15c343642_0_51) 
   - Known attacks from ETH and how they carry over to Solana + auditing methodology
 - [Trail of Bits DeFi Security Success Stories](https://www.youtube.com/watch?v=jGrtK5k0CK0)
@@ -32,28 +44,41 @@ A collection of resources to study Solana smart contract security, auditing, and
 
 ## Exploits 🪦
 
-- [CASH Hack summary thread](https://twitter.com/samczsun/status/1506578902331768832) (samczsun)
-- [CashioApp Attack — What’s the Vulnerability](https://www.soteria.dev/post/cashioapp-attack-whats-the-vulnerability-and-how-soteria-detects-it) (Soteria)
+- [CASH Hack Summary Thread](https://twitter.com/samczsun/status/1506578902331768832) (samczsun)
+  - Establish a root of trust!
+- [CASH Hack — What’s the Vulnerability](https://www.soteria.dev/post/cashioapp-attack-whats-the-vulnerability-and-how-soteria-detects-it) (Soteria)
+  - Check input accounts!
 - [Cope Roulette](https://github.com/Arrowana/cope-roulette-pro) (Arrowana)
+  - Neat way to exploit reverting transactions
 - [Detecting Simulation in a Solana Program](https://opcodes.fr/en/publications/2022-01/detecting-transaction-simulation/) (Opcodes)
   - Goes into how transaction simulation works and the purpose of the bank - Soteria also has a great [overview](https://www.soteria.dev/post/solana-internals-part-4-the-bank-a-key-component) of the bank module
 - [How to freely borrow all the TVL from the Jet Protocol](https://medium.com/@0xjayne/how-to-freely-borrow-all-the-tvl-from-the-jet-protocol-25d40e35920e) (Jayne)
+  - A fairly uncommon vulerability due to an unintended use of `break`
 - [How to Become a Millionaire, 0.000001 BTC at a Time](https://blog.neodyme.io/posts/lending_disclosure) (Neodyme)
+  - An innocent-looking rounding error that put $2.6bn at risk. If in doubt, use `floor` (or `ceil` depending on direction) instead of `round`
   - [Context on Neodyme Exploit by Solend](https://blog.solend.fi/bug-bounty-and-response-to-spl-lending-vulnerability-f4c8874342d0)
 - [New Integer Overflow Bug Discovered in Solana rBPF](https://blocksecteam.medium.com/new-integer-overflow-bug-discovered-in-solana-rbpf-7729717159ee) (BlockSec)
-  - Use `checked_add(), checked_div(), checked_mul(), checked_pow, checked_sub` or `saturating_add(), saturating_mul(), saturating_pow(), saturating_sub()` → read relevant [Soteria blog post](https://www.soteria.dev/post/understanding-arithmetic-overflow-underflows-in-rust-and-solana-smart-contracts)
+  - Use `checked_add(), checked_div(), checked_mul(), checked_pow, checked_sub` or `saturating_add(), saturating_mul(), saturating_pow(), saturating_sub()`! → read relevant [Soteria blog post](https://www.soteria.dev/post/understanding-arithmetic-overflow-underflows-in-rust-and-solana-smart-contracts)
 - [Schrodinger’s NFT, An Incinerator SPL Token program, and The Royal Flush Attack](https://medium.com/@solens_io/schrodingers-nft-an-incinerator-spl-token-program-and-the-royal-flush-attack-58e4ce4e63dc) (Solens) (similar to samczsun explanation of combining attacks)
+  - Chaining small exploits to create a significant exploit. Watch [samczsun's explanation](https://www.youtube.com/watch?v=oA6Td5ujGrM) of exploit chaining 
 - [Smashing the Candy Machine for fun and profit!](https://medium.com/@solens_io/smashing-the-candy-machine-for-fun-and-profit-a3bcc58d6c30) (Solens)
   - Check unchecked accounts properly! There is a reason why Anchor [requires](https://github.com/project-serum/anchor/pull/1452#discussion_r809207430) `UncheckedAccount` to have `/// CHECK` documentation. The fix came down to 1 line of Anchor code: `#[account(zero)]` vs `#[account(zero)]`
 - [Solana Stake Pool: A Semantic Inconsistency Vulnerability](https://www.soteria.dev/post/solana-stake-pool-a-semantic-inconsistency-vulnerability-discovered-by-soteria) (Soteria)
   - Shows how to build a proof of concept with Neodyme’s Poc Framework. Also highlights how previously audited code (Stake Pool audits linked in audits section below) can contain vulnerabilities
+- [Solend Malicious Lending Market Incident Report](https://docs.google.com/document/d/1-WoQwT1QrPEX-r4N-fDamRQ50LM8DsdsOyq1iTabS3Q/edit#)  (Rooter)
+  - Read Kudelski's blog post on Solana Program Security to understand the exploit
 - [SPL Token Program Approve Instruction](https://2501babe.github.io/tools/revoken.html) (Hana)
+  - Sneaky way to revoke Solana token approvals
 - [The $200m Bluff: Cheating Oracles on Solana](https://osec.io/blog/reports/2022-02-16-lp-token-oracle-manipulation/) (OtterSec)
+  - How to move an AMM price to manipulate an oracle and exploit a lending protocol. Use fair pricing for LP tokens and TWAPs where possible! Drift has [examples of oracle guardrails](https://github.com/drift-labs/protocol-v1/blob/4c2d447a677693da506e4de9596a07e4b9ba4d5d/tests/admin.ts#L212) that aim to prevent these types of attacks
 - [Wormhole Hack Summary Thread](https://twitter.com/samczsun/status/1489044939732406275) (samczsun)
+  - Check/validate your input accounts anon!
 - [Wormhole Hack TLDR](https://halborn.com/explained-the-wormhole-hack-february-2022/) (Halborn)
+  - When chaining delegations of signature verifications, make sure it leads to proper verifications!
 - [Wormhole Hack Quick Analysis](https://research.kudelskisecurity.com/2022/02/03/quick-analysis-of-the-wormhole-attack/) (Kudelski)
+  - Validate [unmodified, reference-only accounts](https://docs.solana.com/developing/programming-model/accounts#verifying-validity-of-unmodified-reference-only-accounts)!
 - [Wormhole Post-Mortem Analysis](https://extropy-io.medium.com/solanas-wormhole-hack-post-mortem-analysis-3b68b9e88e13) (Entropy)
-- [Wormhole Hack Lessons](https://blog.chainalysis.com/reports/wormhole-hack-february-2022/) (Chainanalysis)
+  - Analyzing the input accounts to fake the `SignatureSet`
 
 
 

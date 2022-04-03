@@ -100,10 +100,12 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Lido](https://immunefi.com/bounty/lidoforsolana/) (up to 2m)
 - [Mango](https://docs.mango.markets/mango/bug-bounty) (up to 1m)
 - [Marinade](https://immunefi.com/bounty/marinade/) (up to 250k)
+- [Metaplex](https://www.metaplex.com/bounty-program) (up to 200k)
 - [Port](https://immunefi.com/bounty/portfinance/) (up to 500k)
 - [Serum](https://forum.projectserum.com/t/formalizing-a-bug-bounty-program/410) (up to 1m)
 - [Solana Labs](https://github.com/solana-labs/solana/security/policy) (up to 2m)
 - [Solend](https://docs.solend.fi/protocol/bug-bounty) (up to 1m)
+- [Swim](https://immunefi.com/bounty/swimprotocol/) (up to 100k)
 - [UXD](https://docs.uxd.fi/uxdprotocol/resources/bug-bounty) (up to 2.5m)
 - [Wormhole](https://immunefi.com/bounty/wormhole/) (up to 10m)
 
@@ -113,6 +115,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 
 - [Aldrin](https://dex.aldrin.com/877f900320eec44c13409814fe473fb7.pdf) (Kudelski)
 - [Cropper](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/Cropper_Finance_AMM_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
+- [Francium](https://www.certik.com/projects/francium) (Certik)
 - [GooseFx](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/GooseFX_Swap_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
 - [Larix](https://docs.projectlarix.com/how-to-prove/audit) (SlowMist)
 - [Marinade](https://docs.marinade.finance/marinade-protocol/security/audits) (Kudelski + Ackee) and [Code Review](https://marinade.finance/docs/Neodyme.pdf) (Neodyme)

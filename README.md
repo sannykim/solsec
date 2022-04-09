@@ -83,6 +83,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 
 
 ## Tools 🔧
+- [Ackee Trdelnik](https://github.com/Ackee-Blockchain/trdelnik) (Anchor testing framework)
 - [cargo-audit](https://docs.rs/cargo-audit/latest/cargo_audit) (checks Cargo.lock files for vulnerable crates)
 - [cargo-geiger](https://crates.io/crates/cargo-geiger) (checks usage of unsafe Rust code)
 - [Neodyme Solana PoC Framework](https://github.com/neodyme-labs/solana-poc-framework) (penetration testing)
@@ -130,6 +131,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Solana Stake Pool](https://solana.com/SolanaKudelskiStakePoolAudit.pdf) (Kudelski)
 - [Solana Stake Pool](https://solana.com/SolanaQuantstampStakePoolAudit.pdf) (Quantstamp)
 - [Solend](https://docs.solend.fi/protocol/audit) (Kudelski)
+- [Solido](https://github.com/ChorusOne/solido/tree/163b26aee08958fbdc0f3909ccb6ef606a1ea0f2/audit) (Bramah + Neodyme)
 - [Streamflow](https://github.com/streamflow-finance/rust-sdk/blob/main/protocol_audit.pdf) (Opcodes)
 - [Swim](https://swim.io/audits/kudelski.pdf) (Kudelski)
 - [UXD Audit](https://docs.uxd.fi/uxdprotocol/resources/audits) (Bramah Systems)

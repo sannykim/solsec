@@ -42,6 +42,7 @@ A collection of resources to study Solana smart contract security, auditing, and
   - ETH-focused but broadly applicable advice on securing systems in DeFi
 
 
+
 ## Exploits 🪦
 
 - [CASH Hack Summary Thread](https://twitter.com/samczsun/status/1506578902331768832) (samczsun)
@@ -82,7 +83,42 @@ A collection of resources to study Solana smart contract security, auditing, and
 
 
 
+## PoCs for Discovered Vulnerabilities 💡
+
+- [Jet Governance](https://github.com/otter-sec/jet-governance-pocs) (OtterSec)
+
+
+
+## Audits and Code Reviews 🔒
+
+- [Aldrin](https://dex.aldrin.com/877f900320eec44c13409814fe473fb7.pdf) (Kudelski)
+- [Cropper](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/Cropper_Finance_AMM_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
+- [Francium](https://www.certik.com/projects/francium) (Certik)
+- [GooseFx](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/GooseFX_Swap_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
+- [Jet Governance](https://github.com/jet-lab/jet-governance/blob/master/reports/jet-governance-audit-public.pdf) (OtterSec)
+- [Larix](https://docs.projectlarix.com/how-to-prove/audit) (SlowMist)
+- [Marinade](https://docs.marinade.finance/marinade-protocol/security/audits) (Kudelski + Ackee) and [Code Review](https://marinade.finance/docs/Neodyme.pdf) (Neodyme)
+- [Parrot](https://doc.parrot.fi/Party_Parrot_Solana_Smart_Contract_Security_Audit_Report_Halborn_v1_1.pdf) (Halborn)
+- [Phantasia](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/Phantasia_Sports_NFT_Store_SPA_Solana_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
+- [Port](https://immunefi.com/bounty/portfinance/) (Kudelski + SlowMist)
+- [Quarry](https://github.com/QuarryProtocol/quarry/blob/master/audit/quantstamp.pdf) (Quantstamp)
+- [Saber](https://github.com/saber-hq/stable-swap/blob/master/audit/bramah-systems.pdf) (Bramah Systems)
+- [Shared Memory and Token Swap Code Review](https://orca-dev-12345.s3-ap-southeast-1.amazonaws.com/Kudelski-audit.pdf) (Kudelski)
+- [Soda](https://certik-public-assets.s3.amazonaws.com/REP-Soda-Protocol-2021-10-26.pdf) (Certik)
+- [Solana](https://solana.com/solana-security-audit-2019.pdf) (Kudelski, 2019)
+- [Solana Stake Pool](https://solana.com/SolanaKudelskiStakePoolAudit.pdf) (Kudelski)
+- [Solana Stake Pool](https://solana.com/SolanaQuantstampStakePoolAudit.pdf) (Quantstamp)
+- [Solend](https://docs.solend.fi/protocol/audit) (Kudelski)
+- [Solido](https://github.com/ChorusOne/solido/tree/163b26aee08958fbdc0f3909ccb6ef606a1ea0f2/audit) (Bramah + Neodyme)
+- [Streamflow](https://github.com/streamflow-finance/rust-sdk/blob/main/protocol_audit.pdf) (Opcodes)
+- [Swim](https://swim.io/audits/kudelski.pdf) (Kudelski)
+- [UXD Audit](https://docs.uxd.fi/uxdprotocol/resources/audits) (Bramah Systems)
+- [Wormhole](https://github.com/certusone/wormhole/blob/dev.v2/audits/2021-01-10_neodyme.pdf) (Neodyme)
+
+
+
 ## Tools 🔧
+
 - [Ackee Trdelnik](https://github.com/Ackee-Blockchain/trdelnik) (Anchor testing framework)
 - [cargo-audit](https://docs.rs/cargo-audit/latest/cargo_audit) (checks Cargo.lock files for vulnerable crates)
 - [cargo-geiger](https://crates.io/crates/cargo-geiger) (checks usage of unsafe Rust code)
@@ -109,33 +145,6 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Swim](https://immunefi.com/bounty/swimprotocol/) (up to 100k)
 - [UXD](https://docs.uxd.fi/uxdprotocol/resources/bug-bounty) (up to 2.5m)
 - [Wormhole](https://immunefi.com/bounty/wormhole/) (up to 10m)
-
-
-
-## Audits and Code Reviews 🔒
-
-- [Aldrin](https://dex.aldrin.com/877f900320eec44c13409814fe473fb7.pdf) (Kudelski)
-- [Cropper](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/Cropper_Finance_AMM_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
-- [Francium](https://www.certik.com/projects/francium) (Certik)
-- [GooseFx](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/GooseFX_Swap_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
-- [Larix](https://docs.projectlarix.com/how-to-prove/audit) (SlowMist)
-- [Marinade](https://docs.marinade.finance/marinade-protocol/security/audits) (Kudelski + Ackee) and [Code Review](https://marinade.finance/docs/Neodyme.pdf) (Neodyme)
-- [Parrot](https://doc.parrot.fi/Party_Parrot_Solana_Smart_Contract_Security_Audit_Report_Halborn_v1_1.pdf) (Halborn)
-- [Phantasia](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/Phantasia_Sports_NFT_Store_SPA_Solana_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
-- [Port](https://immunefi.com/bounty/portfinance/) (Kudelski + SlowMist)
-- [Quarry](https://github.com/QuarryProtocol/quarry/blob/master/audit/quantstamp.pdf) (Quantstamp)
-- [Saber](https://github.com/saber-hq/stable-swap/blob/master/audit/bramah-systems.pdf) (Bramah Systems)
-- [Shared Memory and Token Swap Code Review](https://orca-dev-12345.s3-ap-southeast-1.amazonaws.com/Kudelski-audit.pdf) (Kudelski)
-- [Soda](https://certik-public-assets.s3.amazonaws.com/REP-Soda-Protocol-2021-10-26.pdf) (Certik)
-- [Solana](https://solana.com/solana-security-audit-2019.pdf) (Kudelski, 2019)
-- [Solana Stake Pool](https://solana.com/SolanaKudelskiStakePoolAudit.pdf) (Kudelski)
-- [Solana Stake Pool](https://solana.com/SolanaQuantstampStakePoolAudit.pdf) (Quantstamp)
-- [Solend](https://docs.solend.fi/protocol/audit) (Kudelski)
-- [Solido](https://github.com/ChorusOne/solido/tree/163b26aee08958fbdc0f3909ccb6ef606a1ea0f2/audit) (Bramah + Neodyme)
-- [Streamflow](https://github.com/streamflow-finance/rust-sdk/blob/main/protocol_audit.pdf) (Opcodes)
-- [Swim](https://swim.io/audits/kudelski.pdf) (Kudelski)
-- [UXD Audit](https://docs.uxd.fi/uxdprotocol/resources/audits) (Bramah Systems)
-- [Wormhole](https://github.com/certusone/wormhole/blob/dev.v2/audits/2021-01-10_neodyme.pdf) (Neodyme)
 
 
 

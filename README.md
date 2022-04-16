@@ -86,6 +86,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 ## PoCs for Discovered Vulnerabilities 💡
 
 - [Jet Governance](https://github.com/otter-sec/jet-governance-pocs) (OtterSec)
+- [SPL Token-Lending](https://blog.neodyme.io/posts/lending_disclosure) (Neodyme)
 
 
 
@@ -100,7 +101,8 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Marinade](https://docs.marinade.finance/marinade-protocol/security/audits) (Kudelski + Ackee) and [Code Review](https://marinade.finance/docs/Neodyme.pdf) (Neodyme)
 - [Parrot](https://doc.parrot.fi/Party_Parrot_Solana_Smart_Contract_Security_Audit_Report_Halborn_v1_1.pdf) (Halborn)
 - [Phantasia](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/Phantasia_Sports_NFT_Store_SPA_Solana_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
-- [Port](https://immunefi.com/bounty/portfinance/) (Kudelski + SlowMist)
+- [Port Lending](https://immunefi.com/bounty/portfinance/) (Kudelski + SlowMist)
+- [Port Sundial](https://github.com/port-finance/sundial/blob/master/audits/port-finance-sundial-audit-public.pdf) (OtterSec)
 - [Quarry](https://github.com/QuarryProtocol/quarry/blob/master/audit/quantstamp.pdf) (Quantstamp)
 - [Saber](https://github.com/saber-hq/stable-swap/blob/master/audit/bramah-systems.pdf) (Bramah Systems)
 - [Shared Memory and Token Swap Code Review](https://orca-dev-12345.s3-ap-southeast-1.amazonaws.com/Kudelski-audit.pdf) (Kudelski)
@@ -123,6 +125,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [cargo-audit](https://docs.rs/cargo-audit/latest/cargo_audit) (checks Cargo.lock files for vulnerable crates)
 - [cargo-geiger](https://crates.io/crates/cargo-geiger) (checks usage of unsafe Rust code)
 - [Neodyme Solana PoC Framework](https://github.com/neodyme-labs/solana-poc-framework) (penetration testing)
+- [OtterSec Solana CTF Framework](https://github.com/otter-sec/sol-ctf-framework)
 - [Saber Vipers](https://github.com/saber-hq/vipers) (checks and validations)
 - [Kudelski Semgrep](https://twitter.com/cryptographadam/status/1425163382982811650?s=20&t=5rNeZ11MMw0N1e-_SmU5Tw) (static analysis)
 - [Soteria](https://www.soteria.dev/post/soteria-a-vulnerability-scanner-for-solana-smart-contracts) (vulnerability scanner)

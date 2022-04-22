@@ -122,6 +122,9 @@ A collection of resources to study Solana smart contract security, auditing, and
 ## Tools 🔧
 
 - [Ackee Trdelnik](https://github.com/Ackee-Blockchain/trdelnik) (Anchor testing framework)
+- [Anchor Test UI](https://github.com/0xPratik/anchor-UI) (Visual Anchor testing framework)
+- [APR](https://www.apr.dev/) (Anchor Program Registry)
+- [Blockworks Checked Math](https://github.com/blockworks-foundation/checked-math) (Macro to check math operations)
 - [cargo-audit](https://docs.rs/cargo-audit/latest/cargo_audit) (checks Cargo.lock files for vulnerable crates)
 - [cargo-geiger](https://crates.io/crates/cargo-geiger) (checks usage of unsafe Rust code)
 - [Neodyme Solana PoC Framework](https://github.com/neodyme-labs/solana-poc-framework) (penetration testing)

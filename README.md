@@ -94,11 +94,15 @@ A collection of resources to study Solana smart contract security, auditing, and
 
 - [Aldrin](https://dex.aldrin.com/877f900320eec44c13409814fe473fb7.pdf) (Kudelski)
 - [Cropper](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/Cropper_Finance_AMM_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
+- [Drift](https://github.com/Zellic/publications/blob/master/Drift%20Protocol%20Audit%20Report.pdf) (Zellic)
 - [Francium](https://www.certik.com/projects/francium) (Certik)
 - [GooseFx](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/GooseFX_Swap_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
+- [Hubble](https://docs.hubbleprotocol.io/documentation/security-audits) (Kudelski)
 - [Jet Governance](https://github.com/jet-lab/jet-governance/blob/master/reports/jet-governance-audit-public.pdf) (OtterSec)
 - [Larix](https://docs.projectlarix.com/how-to-prove/audit) (SlowMist)
 - [Marinade](https://docs.marinade.finance/marinade-protocol/security/audits) (Kudelski + Ackee) and [Code Review](https://marinade.finance/docs/Neodyme.pdf) (Neodyme)
+- [Maple](https://uploads-ssl.webflow.com/6247b0423c35b87bbaaf6d4c/62617902491def721f481ecb_Maple_Finance_Audit_Bramah.pdf) (Bramah)
+- [Orca Whirlpools](https://docs.orca.so/#has-orca-been-audited) (Kudelski + Neodyme)
 - [Parrot](https://doc.parrot.fi/Party_Parrot_Solana_Smart_Contract_Security_Audit_Report_Halborn_v1_1.pdf) (Halborn)
 - [Phantasia](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/Phantasia_Sports_NFT_Store_SPA_Solana_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
 - [Port Lending](https://immunefi.com/bounty/portfinance/) (Kudelski + SlowMist)
@@ -114,7 +118,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Solido](https://github.com/ChorusOne/solido/tree/163b26aee08958fbdc0f3909ccb6ef606a1ea0f2/audit) (Bramah + Neodyme)
 - [Streamflow](https://github.com/streamflow-finance/rust-sdk/blob/main/protocol_audit.pdf) (Opcodes)
 - [Swim](https://swim.io/audits/kudelski.pdf) (Kudelski)
-- [UXD Audit](https://docs.uxd.fi/uxdprotocol/resources/audits) (Bramah Systems)
+- [UXD Audit](https://docs.uxd.fi/uxdprotocol/resources/audits) (Bramah + Sec3/Soteria)
 - [Wormhole](https://github.com/certusone/wormhole/blob/dev.v2/audits/2021-01-10_neodyme.pdf) (Neodyme)
 
 
@@ -127,23 +131,25 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Blockworks Checked Math](https://github.com/blockworks-foundation/checked-math) (Macro to check math operations)
 - [cargo-audit](https://docs.rs/cargo-audit/latest/cargo_audit) (checks Cargo.lock files for vulnerable crates)
 - [cargo-geiger](https://crates.io/crates/cargo-geiger) (checks usage of unsafe Rust code)
+- [Kudelski Semgrep](https://twitter.com/cryptographadam/status/1425163382982811650?s=20&t=5rNeZ11MMw0N1e-_SmU5Tw) (static analysis)
 - [Neodyme Solana PoC Framework](https://github.com/neodyme-labs/solana-poc-framework) (penetration testing)
 - [OtterSec Solana CTF Framework](https://github.com/otter-sec/sol-ctf-framework)
 - [Saber Vipers](https://github.com/saber-hq/vipers) (checks and validations)
-- [Kudelski Semgrep](https://twitter.com/cryptographadam/status/1425163382982811650?s=20&t=5rNeZ11MMw0N1e-_SmU5Tw) (static analysis)
-- [Soteria](https://www.soteria.dev/post/soteria-a-vulnerability-scanner-for-solana-smart-contracts) (vulnerability scanner)
+- [Sec3/Soteria Auto Auditor](https://twitter.com/aeyakovenko/status/1529138221094883333) (vulnerability scanner)
 
 
 
 ## Bug Bounties **🏆**
 
 - [Drift](https://immunefi.com/bounty/driftprotocol/) (up to 500k)
+- [Hubble](https://github.com/hubbleprotocol/audits/blob/master/docs/SECURITY.md) (up to 500k)
 - [Jet](https://immunefi.com/bounty/jetprotocol/) (up to 75k)
 - [Larix](https://docs.projectlarix.com/how-to-prove/bug-bounty-reward) (up to 150k)
 - [Lido](https://immunefi.com/bounty/lidoforsolana/) (up to 2m)
 - [Mango](https://docs.mango.markets/mango/bug-bounty) (up to 1m)
 - [Marinade](https://immunefi.com/bounty/marinade/) (up to 250k)
 - [Metaplex](https://www.metaplex.com/bounty-program) (up to 200k)
+- [Orca](https://immunefi.com/bounty/orca/) (up to 500k)
 - [Port](https://immunefi.com/bounty/portfinance/) (up to 500k)
 - [Serum](https://forum.projectserum.com/t/formalizing-a-bug-bounty-program/410) (up to 1m)
 - [Solana Labs](https://github.com/solana-labs/solana/security/policy) (up to 2m)

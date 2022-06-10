@@ -102,6 +102,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Hubble](https://docs.hubbleprotocol.io/documentation/security-audits) (Kudelski)
 - [Jet Governance](https://github.com/jet-lab/jet-governance/blob/master/reports/jet-governance-audit-public.pdf) (OtterSec)
 - [Larix](https://docs.projectlarix.com/how-to-prove/audit) (SlowMist)
+- [Light](https://github.com/Lightprotocol/light-protocol-program/blob/main/Audit/Light%20Protocol%20Audit%20Report.pdf) (HashCloak)
 - [Marinade](https://docs.marinade.finance/marinade-protocol/security/audits) (Kudelski + Ackee) and [Code Review](https://marinade.finance/docs/Neodyme.pdf) (Neodyme)
 - [Maple](https://uploads-ssl.webflow.com/6247b0423c35b87bbaaf6d4c/62617902491def721f481ecb_Maple_Finance_Audit_Bramah.pdf) (Bramah)
 - [Mean](https://docs.meanfi.com/products/safety-and-security) (Sec3/Soteria)
@@ -122,6 +123,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Solido](https://github.com/ChorusOne/solido/tree/163b26aee08958fbdc0f3909ccb6ef606a1ea0f2/audit) (Bramah + Neodyme)
 - [Streamflow](https://github.com/streamflow-finance/rust-sdk/blob/main/protocol_audit.pdf) (Opcodes)
 - [Swim](https://swim.io/audits/kudelski.pdf) (Kudelski)
+- [Synthetify](https://synthetify.io/resources/audit.pdf) (Kudelski)
 - [UXD Audit](https://docs.uxd.fi/uxdprotocol/resources/audits) (Bramah + Sec3/Soteria)
 - [Wormhole](https://github.com/certusone/wormhole/blob/dev.v2/audits/2021-01-10_neodyme.pdf) (Neodyme)
 
@@ -160,6 +162,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Solana Labs](https://github.com/solana-labs/solana/security/policy) (up to 2m)
 - [Solend](https://docs.solend.fi/protocol/bug-bounty) (up to 1m)
 - [Swim](https://immunefi.com/bounty/swimprotocol/) (up to 100k)
+- [Synthetify](https://synthetify.io/blog/bug-bounty) (up to 100k)
 - [UXD](https://docs.uxd.fi/uxdprotocol/resources/bug-bounty) (up to 2.5m)
 - [Wormhole](https://immunefi.com/bounty/wormhole/) (up to 10m)
 

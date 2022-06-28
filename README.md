@@ -93,10 +93,12 @@ A collection of resources to study Solana smart contract security, auditing, and
 ## Audits and Code Reviews 🔒
 
 - [Aldrin](https://dex.aldrin.com/877f900320eec44c13409814fe473fb7.pdf) (Kudelski)
+- [Cega](https://github.com/otter-sec/cega-vault-report) (OtterSec)
 - [Cropper](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/Cropper_Finance_AMM_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
 - [Debridge](https://docs.debridge.finance/the-core-protocol/security#has-debridge-been-audited) (Neodyme)
 - [Drift](https://github.com/Zellic/publications/blob/master/Drift%20Protocol%20Audit%20Report.pdf) (Zellic)
 - [Francium](https://www.certik.com/projects/francium) (Certik)
+- [Friktion](https://docs.friktion.fi/protocol/security) (Kudelski)
 - [GooseFx](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/GooseFX_Swap_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
 - [Hedge](https://docs.hedge.so/protocol-overview/security) (Kudelski, OtterSec + Sec3/Soteria)
 - [Hubble](https://docs.hubbleprotocol.io/documentation/security-audits) (Kudelski)
@@ -148,6 +150,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 ## Bug Bounties **🏆**
 
 - [Drift](https://immunefi.com/bounty/driftprotocol/) (up to 500k)
+- [Friktion](https://docs.friktion.fi/protocol/security) (up to 100k)
 - [Hubble](https://github.com/hubbleprotocol/audits/blob/master/docs/SECURITY.md) (up to 500k)
 - [Jet](https://immunefi.com/bounty/jetprotocol/) (up to 75k)
 - [Larix](https://docs.projectlarix.com/how-to-prove/bug-bounty-reward) (up to 150k)

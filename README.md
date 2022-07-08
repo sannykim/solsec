@@ -93,6 +93,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 ## Audits and Code Reviews 🔒
 
 - [Aldrin](https://dex.aldrin.com/877f900320eec44c13409814fe473fb7.pdf) (Kudelski)
+- [Cashmere](https://github.com/cashmere-inc/multisig-audit-report/blob/main/cashmere-audit-public.pdf) (OtterSec)
 - [Cega](https://github.com/otter-sec/cega-vault-report) (OtterSec)
 - [Cropper](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/Cropper_Finance_AMM_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
 - [Debridge](https://docs.debridge.finance/the-core-protocol/security#has-debridge-been-audited) (Neodyme)
@@ -123,6 +124,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Solana Stake Pool](https://solana.com/SolanaQuantstampStakePoolAudit.pdf) (Quantstamp)
 - [Solend](https://docs.solend.fi/protocol/audit) (Kudelski)
 - [Solido](https://github.com/ChorusOne/solido/tree/163b26aee08958fbdc0f3909ccb6ef606a1ea0f2/audit) (Bramah + Neodyme)
+- [Solvent](https://drive.google.com/file/d/1tVe-0EQhslQxr56nOQmxqaB8BSDwJ1s1/view) (OtterSec)
 - [Streamflow](https://github.com/streamflow-finance/rust-sdk/blob/main/protocol_audit.pdf) (Opcodes)
 - [Swim](https://swim.io/audits/kudelski.pdf) (Kudelski)
 - [Synthetify](https://synthetify.io/resources/audit.pdf) (Kudelski)

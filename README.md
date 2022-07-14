@@ -86,6 +86,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 ## PoCs for Discovered Vulnerabilities 💡
 
 - [Jet Governance](https://github.com/otter-sec/jet-governance-pocs) (OtterSec)
+- [Port Max Withdraw Bug](https://github.com/port-finance/variable-rate-lending/blob/master/token-lending/program/tests/max_withdraw_bug_poc.rs) (nojob)
 - [SPL Token-Lending](https://blog.neodyme.io/posts/lending_disclosure) (Neodyme)
 
 
@@ -93,6 +94,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 ## Audits and Code Reviews 🔒
 
 - [Aldrin](https://dex.aldrin.com/877f900320eec44c13409814fe473fb7.pdf) (Kudelski)
+- [Audius](https://assets.website-files.com/6024b69839b1b755528798ea/6201872afb297b3955e303aa_Audius%20-%20Security%20Assessment%20for%20Audius%20Protocol%20v1.1.0.pdf) (Kudelski)
 - [Cashmere](https://github.com/cashmere-inc/multisig-audit-report/blob/main/cashmere-audit-public.pdf) (OtterSec)
 - [Cega](https://github.com/otter-sec/cega-vault-report) (OtterSec)
 - [Cropper](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/Cropper_Finance_AMM_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)

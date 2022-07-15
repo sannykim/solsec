@@ -85,6 +85,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 
 ## PoCs for Discovered Vulnerabilities 💡
 
+- [Cashio Exploit](https://github.com/PwnedNoMore/cashio-exploit-workshop/tree/poc) (PNM)
 - [Jet Governance](https://github.com/otter-sec/jet-governance-pocs) (OtterSec)
 - [Port Max Withdraw Bug](https://github.com/port-finance/variable-rate-lending/blob/master/token-lending/program/tests/max_withdraw_bug_poc.rs) (nojob)
 - [SPL Token-Lending](https://blog.neodyme.io/posts/lending_disclosure) (Neodyme)
@@ -168,6 +169,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Serum](https://forum.projectserum.com/t/formalizing-a-bug-bounty-program/410) (up to 1m)
 - [Solana Labs](https://github.com/solana-labs/solana/security/policy) (up to 2m)
 - [Solend](https://docs.solend.fi/protocol/bug-bounty) (up to 1m)
+- [Solvent](https://solvent-protocol.gitbook.io/solvent-protocol/developers/bug-bounty) (up to 250k)
 - [Swim](https://immunefi.com/bounty/swimprotocol/) (up to 100k)
 - [Synthetify](https://synthetify.io/blog/bug-bounty) (up to 100k)
 - [UXD](https://docs.uxd.fi/uxdprotocol/resources/bug-bounty) (up to 2.5m)

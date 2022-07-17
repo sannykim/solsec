@@ -98,6 +98,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Audius](https://assets.website-files.com/6024b69839b1b755528798ea/6201872afb297b3955e303aa_Audius%20-%20Security%20Assessment%20for%20Audius%20Protocol%20v1.1.0.pdf) (Kudelski)
 - [Cashmere](https://github.com/cashmere-inc/multisig-audit-report/blob/main/cashmere-audit-public.pdf) (OtterSec)
 - [Cega](https://github.com/otter-sec/cega-vault-report) (OtterSec)
+- [Crema](https://www.bramah.systems/audits/Crema_Finance_Audit_Bramah.pdf) (Bramah)
 - [Cropper](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/Cropper_Finance_AMM_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
 - [Debridge](https://docs.debridge.finance/the-core-protocol/security#has-debridge-been-audited) (Neodyme)
 - [Drift](https://github.com/Zellic/publications/blob/master/Drift%20Protocol%20Audit%20Report.pdf) (Zellic)
@@ -106,6 +107,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [GooseFx](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/GooseFX_Swap_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
 - [Hedge](https://docs.hedge.so/protocol-overview/security) (Kudelski, OtterSec + Sec3/Soteria)
 - [Hubble](https://docs.hubbleprotocol.io/documentation/security-audits) (Kudelski)
+- [Invariant](https://invariant.app/audit.pdf) (Sec3/Soteria)
 - [Jet Governance](https://github.com/jet-lab/jet-governance/blob/master/reports/jet-governance-audit-public.pdf) (OtterSec)
 - [Larix](https://docs.projectlarix.com/how-to-prove/audit) (SlowMist)
 - [Light](https://github.com/Lightprotocol/light-protocol-program/blob/main/Audit/Light%20Protocol%20Audit%20Report.pdf) (HashCloak)
@@ -118,7 +120,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Port Lending](https://immunefi.com/bounty/portfinance/) (Kudelski + SlowMist)
 - [Port Sundial](https://github.com/port-finance/sundial/blob/master/audits/port-finance-sundial-audit-public.pdf) (OtterSec)
 - [Quarry](https://github.com/QuarryProtocol/quarry/blob/master/audit/quantstamp.pdf) (Quantstamp)
-- [Saber](https://github.com/saber-hq/stable-swap/blob/master/audit/bramah-systems.pdf) (Bramah Systems)
+- [Saber](https://github.com/saber-hq/stable-swap/blob/master/audit/bramah-systems.pdf) (Bramah)
 - [Shared Memory and Token Swap Code Review](https://orca-dev-12345.s3-ap-southeast-1.amazonaws.com/Kudelski-audit.pdf) (Kudelski)
 - [Soda](https://certik-public-assets.s3.amazonaws.com/REP-Soda-Protocol-2021-10-26.pdf) (Certik)
 - [Solana](https://solana.com/solana-security-audit-2019.pdf) (Kudelski, 2019)
@@ -131,7 +133,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Streamflow](https://github.com/streamflow-finance/rust-sdk/blob/main/protocol_audit.pdf) (Opcodes)
 - [Swim](https://swim.io/audits/kudelski.pdf) (Kudelski)
 - [Synthetify](https://synthetify.io/resources/audit.pdf) (Kudelski)
-- [UXD Audit](https://docs.uxd.fi/uxdprotocol/resources/audits) (Bramah + Sec3/Soteria)
+- [UXD Audit](https://docs.uxd.fi/uxdprotocol/resources/audits) (Sec3/Soteria)
 - [Wormhole](https://github.com/certusone/wormhole/blob/dev.v2/audits/2021-01-10_neodyme.pdf) (Neodyme)
 
 

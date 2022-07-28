@@ -119,6 +119,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Phantasia](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/Phantasia_Sports_NFT_Store_SPA_Solana_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
 - [Port Lending](https://immunefi.com/bounty/portfinance/) (Kudelski + SlowMist)
 - [Port Sundial](https://github.com/port-finance/sundial/blob/master/audits/port-finance-sundial-audit-public.pdf) (OtterSec)
+- [Pyth](https://github.com/Zellic/publications) (Zellic)
 - [Quarry](https://github.com/QuarryProtocol/quarry/blob/master/audit/quantstamp.pdf) (Quantstamp)
 - [Saber](https://github.com/saber-hq/stable-swap/blob/master/audit/bramah-systems.pdf) (Bramah)
 - [Shared Memory and Token Swap Code Review](https://orca-dev-12345.s3-ap-southeast-1.amazonaws.com/Kudelski-audit.pdf) (Kudelski)

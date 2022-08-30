@@ -109,6 +109,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Hubble](https://docs.hubbleprotocol.io/documentation/security-audits) (Kudelski)
 - [Invariant](https://invariant.app/audit.pdf) (Sec3/Soteria)
 - [Jet Governance](https://github.com/jet-lab/jet-governance/blob/master/reports/jet-governance-audit-public.pdf) (OtterSec)
+- [Juiced](https://juiced.fi/audit-report.pdf) (OtterSec)
 - [Larix](https://docs.projectlarix.com/how-to-prove/audit) (SlowMist)
 - [Light](https://github.com/Lightprotocol/light-protocol-program/blob/main/Audit/Light%20Protocol%20Audit%20Report.pdf) (HashCloak)
 - [Marinade](https://docs.marinade.finance/marinade-protocol/security/audits) (Kudelski + Ackee) and [Code Review](https://marinade.finance/docs/Neodyme.pdf) (Neodyme)

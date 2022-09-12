@@ -104,6 +104,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Drift](https://github.com/Zellic/publications/blob/master/Drift%20Protocol%20Audit%20Report.pdf) (Zellic)
 - [Francium](https://www.certik.com/projects/francium) (Certik)
 - [Friktion](https://docs.friktion.fi/protocol/security) (Kudelski)
+- [Genopets](https://whitepaper.genopets.me/tokenomics/gene-staking/staking-program-audit) (Solshield)
 - [GooseFx](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/GooseFX_Swap_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
 - [Hedge](https://docs.hedge.so/protocol-overview/security) (Kudelski, OtterSec + Sec3/Soteria)
 - [Hubble](https://docs.hubbleprotocol.io/documentation/security-audits) (Kudelski)

@@ -133,6 +133,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Solend](https://docs.solend.fi/protocol/audit) (Kudelski)
 - [Solido](https://github.com/ChorusOne/solido/tree/163b26aee08958fbdc0f3909ccb6ef606a1ea0f2/audit) (Bramah + Neodyme)
 - [Solvent](https://drive.google.com/file/d/1tVe-0EQhslQxr56nOQmxqaB8BSDwJ1s1/view) (OtterSec)
+- [Squads](https://github.com/Squads-Protocol/squads-mpl/blob/main/Squads%20V3%20-%20OtterSec%20Audit.pdf) (OtterSec)
 - [Streamflow](https://github.com/streamflow-finance/rust-sdk/blob/main/protocol_audit.pdf) (Opcodes)
 - [Swim](https://swim.io/audits/kudelski.pdf) (Kudelski)
 - [Synthetify](https://synthetify.io/resources/audit.pdf) (Kudelski)

@@ -24,17 +24,17 @@ A collection of resources to study Solana smart contract security, auditing, and
   - A quick rundown of the PoC framework and an explanation of Level 0 of the challenge
 - [OtterSec Solana from an Auditor’s perspective](https://osec.io/blog/tutorials/2022-03-14-solana-security-intro/)
   - A bottoms-up introduction to Solana's Execution and Programming Model from a security perspective
-- [Soteria Arithmetic Overflow and Underflow](https://www.soteria.dev/post/understanding-arithmetic-overflow-underflows-in-rust-and-solana-smart-contracts)
+- [Sec3 Arithmetic Overflow and Underflow](https://www.sec3.dev/blog/understanding-arithmetic-overflow-underflows-in-rust-and-solana-smart-contracts)
   - Don't use `+, - , /, *` operations, check arithmetic operations for overflow and underflow!
-- [Soteria How to Audit Part 1: A Systematic Approach](https://www.soteria.dev/post/how-to-audit-solana-smart-contracts-part-1-a-systematic-approach)
+- [Sec3 How to Audit Part 1: A Systematic Approach](https://www.sec3.dev/blog/how-to-audit-solana-smart-contracts-part-1-a-systematic-approach)
   - A high-level overview of common attack surfaces and questions to ask as an auditor
-- [Soteria How to Audit Part 2: using automated tools to find vulnerabilities](https://www.soteria.dev/post/how-to-audit-solana-smart-contracts-part-2-automated-scanning)
+- [Sec3 How to Audit Part 2: using automated tools to find vulnerabilities](https://www.sec3.dev/blog/how-to-audit-solana-smart-contracts-part-2-automated-scanning)
   - An outline of tools that can automatically scan your code for vulnerabilities, unsafe Rust, and spelling. More security tools are needed! 
-- [Soteria How to Audit Part 3: Penetration Testing](https://www.soteria.dev/post/how-to-audit-solana-smart-contracts-part-3-penetration-testing)
+- [Sec3 How to Audit Part 3: Penetration Testing](https://www.sec3.dev/blog/how-to-audit-solana-smart-contracts-part-3-penetration-testing)
   - How to execute a proof of concept for an attack with Neodyme's PoC framework
-- [Soteria How to Audit Part 4: Anchor](https://www.soteria.dev/post/how-to-audit-solana-smart-contracts-part-4-the-anchor-framework)
+- [Sec3 How to Audit Part 4: Anchor](https://www.sec3.dev/blog/how-to-audit-solana-smart-contracts-part-4-the-anchor-framework)
   - How Anchor's `#[program] `, `#[derive(Accounts)]` and `#[account]`work under-the-hood
-- [Soteria Owner and Signer Check](https://www.soteria.dev/post/from-ethereum-smart-contracts-to-solana-programs-two-common-security-pitfalls-and-beyond)
+- [Sec3 Owner and Signer Check](https://www.sec3.dev/blog/from-ethereum-smart-contracts-to-solana-programs-two-common-security-pitfalls-and-beyond)
   - Check the owner and check the signer! Use `#[account]` and `Signer<'info>` to [prevent](https://twitter.com/armaniferrante/status/1438706352805797889?s=20&t=YS6ldLG-nvqLffT4eZtpKg) this
 - [Solend Auditing Workshop](https://docs.google.com/presentation/d/1jZ9kVo6hnhBsz3D2sywqpMojqLE5VTZtaXna7OHL1Uk/edit?pli=1#slide=id.ge15c343642_0_51) 
   - Known attacks from ETH and how they carry over to Solana + auditing methodology
@@ -47,24 +47,24 @@ A collection of resources to study Solana smart contract security, auditing, and
 
 - [CASH Hack Summary Thread](https://twitter.com/samczsun/status/1506578902331768832) (samczsun)
   - Establish a root of trust!
-- [CASH Hack — What’s the Vulnerability](https://www.soteria.dev/post/cashioapp-attack-whats-the-vulnerability-and-how-soteria-detects-it) (Soteria)
+- [CASH Hack — What’s the Vulnerability](https://www.sec3.dev/blog/cashioapp-attack-whats-the-vulnerability-and-how-soteria-detects-it) (Sec3)
   - Check input accounts!
 - [Cope Roulette](https://github.com/Arrowana/cope-roulette-pro) (Arrowana)
   - Neat way to exploit reverting transactions
 - [Detecting Simulation in a Solana Program](https://opcodes.fr/en/publications/2022-01/detecting-transaction-simulation/) (Opcodes)
-  - Goes into how transaction simulation works and the purpose of the bank - Soteria also has a great [overview](https://www.soteria.dev/post/solana-internals-part-4-the-bank-a-key-component) of the bank module
+  - Goes into how transaction simulation works and the purpose of the bank - Sec3 also has a great [overview](https://www.sec3.dev/blog/solana-internals-part-4-the-bank-a-key-component) of the bank module
 - [How to freely borrow all the TVL from the Jet Protocol](https://medium.com/@0xjayne/how-to-freely-borrow-all-the-tvl-from-the-jet-protocol-25d40e35920e) (Jayne)
   - A fairly uncommon vulerability due to an unintended use of `break`
 - [How to Become a Millionaire, 0.000001 BTC at a Time](https://blog.neodyme.io/posts/lending_disclosure) (Neodyme)
   - An innocent-looking rounding error that put $2.6bn at risk. If in doubt, use `floor` (or `ceil` depending on direction) instead of `round`
   - [Context on Neodyme Exploit by Solend](https://blog.solend.fi/bug-bounty-and-response-to-spl-lending-vulnerability-f4c8874342d0)
 - [New Integer Overflow Bug Discovered in Solana rBPF](https://blocksecteam.medium.com/new-integer-overflow-bug-discovered-in-solana-rbpf-7729717159ee) (BlockSec)
-  - Use `checked_add(), checked_div(), checked_mul(), checked_pow, checked_sub` or `saturating_add(), saturating_mul(), saturating_pow(), saturating_sub()`! → read relevant [Soteria blog post](https://www.soteria.dev/post/understanding-arithmetic-overflow-underflows-in-rust-and-solana-smart-contracts)
+  - Use `checked_add(), checked_div(), checked_mul(), checked_pow, checked_sub` or `saturating_add(), saturating_mul(), saturating_pow(), saturating_sub()`! → read relevant [Sec3 blog post](https://www.sec3.dev/blog/understanding-arithmetic-overflow-underflows-in-rust-and-solana-smart-contracts)
 - [Schrodinger’s NFT, An Incinerator SPL Token program, and The Royal Flush Attack](https://medium.com/@solens_io/schrodingers-nft-an-incinerator-spl-token-program-and-the-royal-flush-attack-58e4ce4e63dc) (Solens) (similar to samczsun explanation of combining attacks)
   - Chaining small exploits to create a significant exploit. Watch [samczsun's explanation](https://www.youtube.com/watch?v=oA6Td5ujGrM) of exploit chaining 
 - [Smashing the Candy Machine for fun and profit!](https://medium.com/@solens_io/smashing-the-candy-machine-for-fun-and-profit-a3bcc58d6c30) (Solens)
   - Check unchecked accounts properly! There is a reason why Anchor [requires](https://github.com/project-serum/anchor/pull/1452#discussion_r809207430) `UncheckedAccount` to have `/// CHECK` documentation. The fix came down to 1 line of Anchor code: `#[account(zero)]` vs `#[account(zero)]`
-- [Solana Stake Pool: A Semantic Inconsistency Vulnerability](https://www.soteria.dev/post/solana-stake-pool-a-semantic-inconsistency-vulnerability-discovered-by-soteria) (Soteria)
+- [Solana Stake Pool: A Semantic Inconsistency Vulnerability](https://www.sec3.dev/blog/solana-stake-pool-a-semantic-inconsistency-vulnerability-discovered-by-soteria) (Sec3)
   - Shows how to build a proof of concept with Neodyme’s Poc Framework. Also highlights how previously audited code (Stake Pool audits linked in audits section below) can contain vulnerabilities
 - [Solend Malicious Lending Market Incident Report](https://docs.google.com/document/d/1-WoQwT1QrPEX-r4N-fDamRQ50LM8DsdsOyq1iTabS3Q/edit#)  (Rooter)
   - Read Kudelski's blog post on Solana Program Security to understand the exploit
@@ -106,9 +106,9 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Friktion](https://docs.friktion.fi/protocol/security) (Kudelski)
 - [Genopets](https://whitepaper.genopets.me/tokenomics/gene-staking/staking-program-audit) (Solshield)
 - [GooseFx](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/GooseFX_Swap_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
-- [Hedge](https://docs.hedge.so/protocol-overview/security) (Kudelski, OtterSec + Sec3/Soteria)
+- [Hedge](https://docs.hedge.so/protocol-overview/security) (Kudelski, OtterSec + Sec3)
 - [Hubble](https://docs.hubbleprotocol.io/documentation/security-audits) (Kudelski)
-- [Invariant](https://invariant.app/audit.pdf) (Sec3/Soteria)
+- [Invariant](https://invariant.app/audit.pdf) (Sec3)
 - [Jet Governance](https://github.com/jet-lab/jet-governance/blob/master/reports/jet-governance-audit-public.pdf) (OtterSec)
 - [Juiced](https://juiced.fi/audit-report.pdf) (OtterSec)
 - [Larix](https://docs.projectlarix.com/how-to-prove/audit) (SlowMist)
@@ -116,7 +116,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Mango](https://docs.mango.markets/audit) (Neodyme)
 - [Maple](https://uploads-ssl.webflow.com/6247b0423c35b87bbaaf6d4c/62617902491def721f481ecb_Maple_Finance_Audit_Bramah.pdf) (Bramah)
 - [Marinade](https://docs.marinade.finance/marinade-protocol/security/audits) (Kudelski + Ackee) and [Code Review](https://marinade.finance/docs/Neodyme.pdf) (Neodyme)
-- [Mean](https://docs.meanfi.com/products/safety-and-security) (Sec3/Soteria)
+- [Mean](https://docs.meanfi.com/products/safety-and-security) (Sec3)
 - [Orca Whirlpools](https://docs.orca.so/#has-orca-been-audited) (Kudelski + Neodyme)
 - [Parrot](https://doc.parrot.fi/Party_Parrot_Solana_Smart_Contract_Security_Audit_Report_Halborn_v1_1.pdf) (Halborn)
 - [Phantasia](https://github.com/HalbornSecurity/PublicReports/blob/master/Solana%20Program%20Audit/Phantasia_Sports_NFT_Store_SPA_Solana_Program_Security_Audit_Report_Halborn_Final.pdf) (Halborn)
@@ -138,7 +138,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Streamflow](https://github.com/streamflow-finance/rust-sdk/blob/main/protocol_audit.pdf) (Opcodes)
 - [Swim](https://swim.io/audits/kudelski.pdf) (Kudelski)
 - [Synthetify](https://synthetify.io/resources/audit.pdf) (Kudelski)
-- [UXD Audit](https://docs.uxd.fi/uxdprotocol/resources/audits) (Sec3/Soteria)
+- [UXD Audit](https://docs.uxd.fi/uxdprotocol/resources/audits) (Sec3)
 - [Wormhole](https://github.com/certusone/wormhole/blob/dev.v2/audits/2021-01-10_neodyme.pdf) (Neodyme)
 
 
@@ -155,7 +155,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Neodyme Solana PoC Framework](https://github.com/neodyme-labs/solana-poc-framework) (penetration testing)
 - [OtterSec Solana CTF Framework](https://github.com/otter-sec/sol-ctf-framework)
 - [Saber Vipers](https://github.com/saber-hq/vipers) (checks and validations)
-- [Sec3/Soteria Auto Auditor](https://twitter.com/aeyakovenko/status/1529138221094883333) (vulnerability scanner)
+- [Sec3 Auto Auditor](https://twitter.com/aeyakovenko/status/1529138221094883333) (vulnerability scanner)
 
 
 

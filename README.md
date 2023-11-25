@@ -40,6 +40,8 @@ A collection of resources to study Solana smart contract security, auditing, and
   - Known attacks from ETH and how they carry over to Solana + auditing methodology
 - [Trail of Bits DeFi Security Success Stories](https://www.youtube.com/watch?v=jGrtK5k0CK0)
   - ETH-focused but broadly applicable advice on securing systems in DeFi
+- [Zellic The Vulnerabilities You’ll Write With Anchor](https://www.zellic.io/blog/the-vulnerabilities-youll-write-with-anchor/)
+  - A subset of common vulnerabilities you'll come across in Anchor programs
 
 
 

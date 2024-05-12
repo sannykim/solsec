@@ -160,7 +160,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [OtterSec Solana CTF Framework](https://github.com/otter-sec/sol-ctf-framework)
 - [Saber Vipers](https://github.com/saber-hq/vipers) (checks and validations)
 - [Sec3 Auto Auditor](https://twitter.com/aeyakovenko/status/1529138221094883333) (vulnerability scanner)
-- [L3X](https://github.com/VulnPlanet/l3x) - (AI-driven Smart Contract Static Analyzer)
+- [Rug Checker Solana](https://rugcheckersolana.com/) - (Best solana rug checker tool)
 
 
 

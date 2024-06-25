@@ -149,7 +149,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 
 ## Tools 🔧
 
-- [Ackee Trdelnik](https://github.com/Ackee-Blockchain/trdelnik) (Anchor testing framework)
+- [Ackee Trident](https://github.com/Ackee-Blockchain/trident) (Solana fuzzing framework)
 - [Anchor Test UI](https://github.com/0xPratik/anchor-UI) (Visual Anchor testing framework)
 - [APR](https://www.apr.dev/) (Anchor Program Registry)
 - [Blockworks Checked Math](https://github.com/blockworks-foundation/checked-math) (Macro to check math operations)

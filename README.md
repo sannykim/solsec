@@ -66,7 +66,7 @@ A collection of resources to study Solana smart contract security, auditing, and
   - Chaining small exploits to create a significant exploit. Watch [samczsun's explanation](https://www.youtube.com/watch?v=oA6Td5ujGrM) of exploit chaining 
 - [Smashing the Candy Machine for fun and profit!](https://medium.com/@solens_io/smashing-the-candy-machine-for-fun-and-profit-a3bcc58d6c30) (Solens)
   - Check unchecked accounts properly! There is a reason why Anchor [requires](https://github.com/project-serum/anchor/pull/1452#discussion_r809207430) `UncheckedAccount` to have `/// CHECK` documentation. The fix came down to 1 line of Anchor code: `#[account(zero)]` vs `#[account(zero)]`
-- [Solana Stake Pool: A Semantic Inconsistency Vulnerability](https://www.sec3.dev/blog/solana-stake-pool-a-semantic-inconsistency-vulnerability-discovered-by-soteria) (Sec3)
+- [Solana Stake Pool: A Semantic Inconsistency Vulnerability](https://www.sec3.dev/blog/solana-stake-pool-a-semantic-inconsistency-vulnerability-discovered-by-x-ray) (Sec3)
   - Shows how to build a proof of concept with Neodyme’s Poc Framework. Also highlights how previously audited code (Stake Pool audits linked in audits section below) can contain vulnerabilities
 - [Solend Malicious Lending Market Incident Report](https://docs.google.com/document/d/1-WoQwT1QrPEX-r4N-fDamRQ50LM8DsdsOyq1iTabS3Q/edit#)  (Rooter)
   - Read Kudelski's blog post on Solana Program Security to understand the exploit

@@ -162,6 +162,7 @@ A collection of resources to study Solana smart contract security, auditing, and
 - [Sec3 Auto Auditor](https://twitter.com/aeyakovenko/status/1529138221094883333) (vulnerability scanner)
 - [L3X](https://github.com/VulnPlanet/l3x) - (AI-driven Smart Contract Static Analyzer)
 - [Rug Checker Solana](https://rugcheckersolana.com/) - (Best solana rug checker tool)
+- [HostDeFi Token Scanner](https://hostdefi.com/scan) - (free on-chain token risk grades for any Solana mint — authorities, liquidity, holder concentration)
 
 
 ## Bug Bounties **🏆**
